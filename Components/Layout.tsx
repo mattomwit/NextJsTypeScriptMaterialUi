@@ -10,6 +10,9 @@ export default function Layout({Component, pageProps}: AppProps) {
        <Head>
         <title>About</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
       </Head>
       <Link href="/"><a>Home</a></Link>
       <Link href="/about"><a>About</a></Link>
